@@ -1,0 +1,26 @@
+{
+  "name": "cbautils",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "CBAUtils internal software and documentation portal.",
+  "scripts": {
+    "start": "rocket start",
+    "build:css": "tailwindcss -i ./src/styles.css -o ./public/cbautils.css --minify",
+    "prestart": "npm run build:css",
+    "prebuild": "npm run build:css",
+    "build": "rocket build",
+    "rocket:build": "rocket build"
+  },
+  "dependencies": {
+    "@rocket/js": "^0.2.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.14",
+    "shadcn": "^4.21.1",
+    "tailwindcss": "^4.1.14"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
