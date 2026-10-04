@@ -2,7 +2,7 @@
 export const config = {
   path: '/desktop-apps/ar-desktop-suite',
   metadata: { title: 'A/R Desktop Suite', description: 'CBA A/R Desktop Suite downloads, releases, issues, and documentation.' },
-  menu: { iconName: 'window-desktop', order: 21 },
+  menu: { iconName: 'pc-display', order: 21 },
 };
 
 import { layout, components } from '../layout.js';

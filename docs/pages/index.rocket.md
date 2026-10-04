@@ -5,7 +5,7 @@ export const config = {
     title: 'CBAUtils',
     description: 'The internal software and documentation hub for CBA office tools.',
   },
-  menu: { iconName: 'house', order: 0 },
+  menu: { iconName: 'pc-display', order: 20 },
 };
 
 import { layout, components } from './layout.js';

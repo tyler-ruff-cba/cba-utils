@@ -12,7 +12,7 @@ export const components = {
 export const layout = pageData =>
   atlasDocLayout(pageData, {
     headerData: {
-      logo: ['/brand/cbautils-mark.svg'],
+      logo: ['/brand/cba_icon.svg'],
       homeLink: '/',
       navLinks: siteData.navigation,
       socials: [],
