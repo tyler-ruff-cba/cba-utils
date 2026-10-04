@@ -2,7 +2,7 @@
 export const config = {
   path: '/desktop-apps',
   metadata: { title: 'Desktop Apps', description: 'Downloadable CBA desktop applications and their live GitHub status.' },
-  menu: { iconName: 'pc-display', order: 20 },
+  menu: { iconName: 'desktop', order: 20 },
 };
 
 import { layout, components } from '../layout.js';
