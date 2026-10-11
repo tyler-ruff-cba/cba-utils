@@ -25,7 +25,21 @@ Check Runs is a browser-based CBA application for check-related office workflows
 
 ## Documentation
 
-Application-specific procedures and supporting material will be collected here as they are added.
+First, you want to make sure to locate the check register and the check run you will be running. Both must be ```.xlsx``` files. ```.csv``` or other formats will not work.
+
+To get started, navigate to the link above. You should see the following screen:
+![Check Runs Web App screenshot](/img/check-runs-screenshot-1.png)
+
+Click "Choose File" under **Check Register File**. Select the check register file.
+Next, click "Choose File" under **Current Check Run File**. Select the check run that you will be running.
+
+When you click "Start", the process will begin. 
+
+Once processing is complete (if there were no errors that stopped the processing), you should see the following screen:
+
+![Check Runs Web App completed screenshot](/img/check-runs-app-screenshot-2.jpg)
+
+At the above screen, you can download the three processed files.
 
 ## Supporting Resources
 
