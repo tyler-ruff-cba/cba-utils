@@ -22,7 +22,7 @@ export const config = {
   import {
     auth,
     signInWithEmailAndPassword,
-  } from "./src/firebase-auth.js";
+  } from "/src/firebase-auth.js";
 
   const form = document.querySelector("#login-form");
   const error = document.querySelector("#login-error");
